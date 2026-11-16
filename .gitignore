@@ -1,0 +1,19 @@
+﻿__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+
+# Large archive and generated dataset
+motor_digital_twin.zip
+CSV/donnees_energetiques_detaillees.csv
+
+# Local backups
+sauvegardes/
+

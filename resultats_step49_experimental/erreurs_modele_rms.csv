@@ -1,0 +1,7 @@
+modele,scenario_id,temps_debut_s,target_bearing_fault,probabilite_defaut,prediction_seuil_050,type_erreur
+RMS_seul,14,185.0,1,0.1555469270008743,0,Faux negatif
+RMS_seul,14,190.0,1,0.0,0,Faux negatif
+RMS_seul,14,235.0,1,0.0,0,Faux negatif
+RMS_seul,16,430.0,0,0.9092196750331424,1,Faux positif
+RMS_seul,20,255.0,1,0.0,0,Faux negatif
+RMS_seul,20,560.0,0,0.9092196750331424,1,Faux positif

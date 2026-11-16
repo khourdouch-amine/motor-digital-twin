@@ -1,0 +1,5 @@
+﻿scenario_id,scenario_type,nombre_fenetres,nombre_defauts_reels,nombre_alertes,nombre_erreurs,probabilite_moyenne
+14,defaut_roulement,118,37,34,3,0.2480612330305418
+16,defaut_roulement,118,31,31,0,0.2705982071242258
+18,defauts_combines,118,37,37,0,0.3071867748108629
+20,defauts_combines,118,48,48,2,0.39849714274241926

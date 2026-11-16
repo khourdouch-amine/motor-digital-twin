@@ -1,0 +1,8 @@
+﻿indicateur,regle_rms_070,random_forest,interpretation
+Accuracy,0.9894,0.9894,Performances globales identiques sur le test synthetique
+Balanced accuracy,0.9837,0.9854,Leger avantage au Random Forest
+Precision defaut,1.0,0.9933,Aucune fausse alerte RMS sur ce test
+Rappel defaut,0.9673,0.9739,Le Random Forest detecte un defaut supplementaire
+F1-score,0.9834,0.9835,Difference marginale
+Defauts manques,5.0,4.0,Une fenetre supplementaire detectee par le Random Forest
+Fausses alertes,0.0,1.0,Une fausse alerte Random Forest dans le scenario 20

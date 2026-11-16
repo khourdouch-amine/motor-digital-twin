@@ -1,0 +1,7 @@
+,rms_m_s2,rms_m_s2,rms_m_s2,rms_m_s2,rms_m_s2,ecart_type_m_s2,ecart_type_m_s2,ecart_type_m_s2,ecart_type_m_s2,ecart_type_m_s2,facteur_crete,facteur_crete,facteur_crete,facteur_crete,facteur_crete
+,count,mean,std,min,max,count,mean,std,min,max,count,mean,std,min,max
+resultat,,,,,,,,,,,,,,,
+Faux negatif,4,0.68236,0.00555,0.67647,0.68982,4,0.06985,0.01768,0.05953,0.09628,4,1.22814,0.06309,1.18451,1.32139
+Faux positif,2,0.69349,0.00048,0.69314,0.69383,2,0.11146,0.02821,0.09151,0.13141,2,1.32938,0.12071,1.24403,1.41473
+Vrai negatif,317,0.54465,0.05091,0.3618,0.67265,317,0.07326,0.02223,0.04081,0.14746,317,1.32444,0.11474,1.15296,1.69235
+Vrai positif,149,0.89417,0.12653,0.69314,1.31094,149,0.09331,0.02466,0.05134,0.19382,149,1.25514,0.06409,1.13735,1.48222

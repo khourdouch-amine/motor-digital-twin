@@ -1,0 +1,75 @@
+CONCLUSION GENERALE DU PROJET
+=============================
+
+Titre
+-----
+Conception et simulation d'un jumeau numérique d'un moteur électrique
+intégrant l'IoT industriel, la maintenance prédictive par intelligence
+artificielle et le suivi énergétique.
+
+1. Objectif
+-----------
+Le projet étudie une architecture de jumeau numérique destinée à suivre
+des variables simulées d'un moteur électrique et à détecter des défauts
+à partir de caractéristiques vibratoires calculées sur des fenêtres de
+signal.
+
+2. Méthodologie
+---------------
+Le travail repose sur des scénarios synthétiques de fonctionnement normal,
+de variation de charge, de surcharge, de défaut de roulement et de défauts
+combinés. Des indicateurs vibratoires sont calculés, puis utilisés pour
+entraîner et évaluer des modèles de classification. Une étude de robustesse
+est menée en ajoutant plusieurs niveaux de bruit aux caractéristiques.
+
+3. Résultats
+-----------
+Le modèle de référence présente les valeurs suivantes sur le jeu de test
+synthétique :
+- Exactitude : 0.9894
+- Exactitude équilibrée : 0.9854
+- Précision : 0.9933
+- Rappel : 0.9739
+- Score F1 : 0.9835
+- AUC ROC : 0.9989
+
+Dans l'étude de robustesse répétée, l'exactitude moyenne passe de
+0.9894 sans bruit ajouté à 0.9675
+au niveau de bruit de 30%. Le rappel moyen passe de
+0.9739 à 0.9410.
+Le nombre moyen de défauts manqués augmente de
+4.00 à 9.03.
+
+4. Interprétation
+-----------------
+Les résultats montrent que les modèles distinguent efficacement les classes
+définies dans les scénarios simulés. Ils montrent aussi une dégradation des
+performances lorsque les perturbations artificielles deviennent plus fortes.
+Cette tendance souligne l'intérêt d'évaluer la sensibilité aux perturbations
+et de suivre conjointement le rappel, les fausses alertes et les défauts manqués.
+
+5. Limites
+----------
+Les données sont entièrement synthétiques. Les signaux vibratoires ne sont
+pas des mesures brutes acquises sur un moteur industriel. Les résultats
+dépendent des hypothèses de simulation, des caractéristiques choisies et
+des scénarios de test. Les performances rapportées ne constituent donc pas
+une validation industrielle et ne garantissent pas un comportement équivalent
+sur un équipement réel.
+
+6. Perspectives
+---------------
+- Acquérir des données réelles sur plusieurs régimes de fonctionnement.
+- Documenter les capteurs, leur fréquence d'échantillonnage et leur calibration.
+- Valider le modèle sur des moteurs ou des sessions indépendants.
+- Étudier les dérives de charge, de température et de vieillissement.
+- Comparer les coûts des défauts manqués et des fausses alertes.
+- Mettre en place une chaîne IoT avec collecte, horodatage, stockage et suivi.
+- Évaluer le système en temps réel avant toute utilisation opérationnelle.
+
+Conclusion
+----------
+Ce projet constitue une étude de faisabilité en environnement simulé.
+Il fournit une base méthodologique pour l'analyse vibratoire et la
+maintenance prédictive, mais une validation sur des données réelles demeure
+indispensable avant toute conclusion sur l'usage industriel.

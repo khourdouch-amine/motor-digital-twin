@@ -1,0 +1,6 @@
+bruit_relatif,accuracy,balanced_accuracy,precision_defaut,recall_defaut,f1_defaut
+0.0,1.0,1.0,1.0,1.0,1.0
+0.01,1.0,1.0,1.0,1.0,1.0
+0.03,1.0,1.0,1.0,1.0,1.0
+0.05,1.0,1.0,1.0,1.0,1.0
+0.1,1.0,1.0,1.0,1.0,1.0

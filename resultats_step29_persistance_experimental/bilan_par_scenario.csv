@@ -1,0 +1,13 @@
+regle,scenario_id,vrais_negatifs,fausses_alertes,defauts_manques,vrais_positifs
+reference,14,81,0,3,34
+reference,16,87,0,0,31
+reference,18,81,0,0,37
+reference,20,69,1,1,47
+persistance_2_sur_3,14,80,1,3,34
+persistance_2_sur_3,16,86,1,1,30
+persistance_2_sur_3,18,80,1,1,36
+persistance_2_sur_3,20,69,1,1,47
+persistance_3_sur_3,14,81,0,9,28
+persistance_3_sur_3,16,87,0,2,29
+persistance_3_sur_3,18,81,0,2,35
+persistance_3_sur_3,20,70,0,5,43

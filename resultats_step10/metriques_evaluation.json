@@ -1,0 +1,38 @@
+{
+    "accuracy": 0.9967641585423437,
+    "balanced_accuracy": 0.9869774200760116,
+    "f1_macro": 0.9928346460622147,
+    "rapport": "                     precision    recall  f1-score   support\n\n             Normal       1.00      1.00      1.00     60568\n          Surcharge       1.00      0.95      0.97      4473\nDéfaut de roulement       1.00      1.00      1.00      5940\n   Défauts combinés       1.00      1.00      1.00      1025\n\n           accuracy                           1.00     72006\n          macro avg       1.00      0.99      0.99     72006\n       weighted avg       1.00      1.00      1.00     72006\n",
+    "matrice_confusion": [
+        [
+            60568,
+            0,
+            0,
+            0
+        ],
+        [
+            233,
+            4240,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            5940,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            1025
+        ]
+    ],
+    "classes": [
+        0,
+        1,
+        2,
+        3
+    ]
+}

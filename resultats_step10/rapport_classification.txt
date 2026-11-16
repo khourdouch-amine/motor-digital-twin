@@ -1,0 +1,17 @@
+ÉVALUATION DU MODÈLE
+====================
+
+Accuracy : 0.9968
+Balanced accuracy : 0.9870
+F1 macro : 0.9928
+
+                     precision    recall  f1-score   support
+
+             Normal       1.00      1.00      1.00     60568
+          Surcharge       1.00      0.95      0.97      4473
+Défaut de roulement       1.00      1.00      1.00      5940
+   Défauts combinés       1.00      1.00      1.00      1025
+
+           accuracy                           1.00     72006
+          macro avg       1.00      0.99      0.99     72006
+       weighted avg       1.00      1.00      1.00     72006
