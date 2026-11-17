@@ -61,5 +61,5 @@ The current study relies on synthetic sensor data and simplified simulation mode
 ## Author
 
 **Amine Khourdouch**  
-Master's Student in Mechatronics Engineering  
+Mechatronics Engineering  
 CEAA – Université Ibn Tofaïl, Kenitra, Morocco
